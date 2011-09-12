@@ -1,6 +1,5 @@
-(:require [phone-code])
-
 (ns phone-mnemonic.web
+  (:require [phone-code])
   (:use ring.adapter.jetty))
 
 (defn app [req]
