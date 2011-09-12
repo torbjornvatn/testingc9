@@ -35,7 +35,4 @@
                     (set (for [first-word first-words
                                 second-word second-words]
                             (str first-word " " second-word)))
-                        (set second-words))))))
-    
-(comment
-  (encode "98219397"))    
+                        (set second-words))))))   
